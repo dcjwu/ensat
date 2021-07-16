@@ -1,0 +1,70 @@
+<div class="nav__wrapper" id="sidebar">
+    <nav class="nav" id="nav">
+        <div class="nav__inner" id="nav-inner">
+            <ul class="nav__left">
+                <li class="nav__link nav__link-mr <% if (active === 'about') {%>active<%}%>">
+                    <a href="/about"><%= __('nav_about')%></a>
+                </li>
+                <li class="nav__link nav__link-mr <% if (active === 'products') {%>active<%}%>">
+                    <a href="/products"><%= __('nav_products')%></a>
+                </li>
+                <li class="nav__link <% if (active === 'findus') {%>active<%}%>">
+                    <a href="/findus"><%= __('nav_find')%></a>
+                </li>
+            </ul>
+            <div class="nav__center">
+                <a href="/">
+                    <img class="nav__img" src="/img/ensat.png" alt="SIA Ensat Logo">
+                </a>
+            </div>
+            <ul class="nav__right">
+                <li class="nav__link <% if (active === 'delivery') {%>active<%}%>">
+                    <a href="/delivery"><%= __('nav_delivery')%></a>
+                </li>
+                <li class="nav__link nav__link-ml <% if (active === 'firms') {%>active<%}%>">
+                    <a href="/firms"><%= __('nav_firms')%></a>
+                </li>
+                <li class="nav__link nav__link-ml <% if (active === 'contacts') {%>active<%}%>">
+                    <a href="/contacts"><%= __('nav_contacts')%></a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav nav--mobile">
+            <ul class="nav__left nav__left--mobile">
+                <li class="nav__link nav__link--mobile <% if (active === 'about') {%>active<%}%>">
+                    <a href="/about"><%= __('nav_about')%></a>
+                </li>
+                <li class="nav__link nav__link--mobile <% if (active === 'products') {%>active<%}%>">
+                    <a href="/products"><%= __('nav_products')%></a>
+                </li>
+                <li class="nav__link nav__link--mobile <% if (active === 'findus') {%>active<%}%>">
+                    <a href="/findus"><%= __('nav_find')%></a>
+                </li>
+            </ul>
+            <ul class="nav__right nav__right--mobile">
+                <li class="nav__link nav__link--mobile <% if (active === 'delivery') {%>active<%}%>">
+                    <a href="/delivery"><%= __('nav_delivery')%></a>
+                </li>
+                <li class="nav__link nav__link--mobile <% if (active === 'firms') {%>active<%}%>">
+                    <a href="/firms"><%= __('nav_firms')%></a>
+                </li>
+                <li class="nav__link nav__link--mobile <% if (active === 'contacts') {%>active<%}%>">
+                    <a href="/contacts"><%= __('nav_contacts')%></a>
+                </li>
+            </ul>
+        </div>
+        <div class="lang">
+            <ul>
+                <li class="lang__list">
+                    <a class="btn-lang" href="/lv">LV</a>
+                </li>
+                <li class="lang__list">
+                    <a class="btn-lang" href="/ru">RU</a>
+                </li>
+            </ul>
+        </div>
+        <button class="burger" type="button" id="sidebarToggle">
+            <span>Menu</span>
+        </button>
+    </nav>
+</div>

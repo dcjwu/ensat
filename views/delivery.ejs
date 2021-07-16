@@ -1,0 +1,61 @@
+<%- include('./partials/head') %>
+
+<%- include('./partials/nav_main') %>
+
+<div class="container">
+    <section class="block block--mb block--mob">
+        <h1 class="block__header">
+            <%= __('page_deliveryHeader')%>
+        </h1>
+        <div class="delivery_page">
+            <div class="delivery_page__top">
+                <div class="delivery_page__left">
+                    <p class="delivery_page__info"><%= __('page_deliveryPrice')%> <span>15</span> &euro;</p>
+                </div>
+                <div class="delivery_page__right">
+                    <p class="delivery_page__info supply__info--m0"><%= __('page_deliveryPhone')%></p>
+                    <p class="delivery_page__phone">+371 29914644</p>
+                    <p class="delivery_page__hours">10:00-18:00</p>
+                </div>
+            </div>
+            <div class="delivery_page__bottom">
+                <div class="bottom__left">
+                    <div class="bottom__top">
+                        <h3 class="bottom__name"><%= __('page_deliveryRiga')%></h3>
+                        <div class="bottom__info">
+                            <div class="bottom__place"><%= __('page_deliveryRight')%></div>
+                            <div class="bottom__price">3 &euro;</div>
+                        </div>
+                        <div class="bottom__info">
+                            <div class="bottom__place"><%= __('page_deliveryLeft')%></div>
+                            <div class="bottom__price">5 &euro;</div>
+                        </div>
+                        <div class="bottom__free"><%= __('page_deliveryMoreThan')%></div>
+                        <div class="bottom__info">
+                            <h3 class="bottom__name"><%= __('page_deliveryOlaine')%></h3>
+                            <div class="bottom__price">5 &euro;</div>
+                        </div>
+                        <div class="bottom__info">
+                            <h3 class="bottom__name"><%= __('page_deliveryJurmala')%></h3>
+                            <div class="bottom__price">5 &euro;</div>
+                        </div>
+                        <div class="bottom__info">
+                            <h3 class="bottom__name"><%= __('page_deliveryMarupe')%></h3>
+                            <div class="bottom__price">5 &euro;</div>
+                        </div>
+                    </div>
+                    <div class="bottom__free"><%= __('page_deliveryMoreDelivery')%></div>
+                </div>
+                <div class="bottom__images">
+                    <img class="bottom__salads" src="/img/salads_13.png" alt="Salads">
+                    <img class="bottom__figure" src="/img/figure_5.png" alt="Decoration Figure">
+                    <img class="bottom__dragon" src="/img/dragon_1.png" alt="Dragon Figure">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<%- include('./partials/footer') %>
+
+<%- include('./partials/support') %>

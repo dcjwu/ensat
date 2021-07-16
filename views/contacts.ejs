@@ -1,0 +1,47 @@
+<%- include('./partials/head') %>
+
+<%- include('./partials/nav_main') %>
+
+<section class="block block--mob">
+    <h1 class="block__header">
+        <%= __('contacts_header')%>
+    </h1>
+    <div class="contacts_page">
+        <div class="contacts_page__list">
+            <div class="contacts_page__item contacts_page__item--white">
+                <i class="fas fa-map-marker-alt"></i>
+                <ul>
+                    <li class="item_page__name item_page__name--white"><%= __('contacts_address')%></li>
+                    <li class="item_page__info">Nēģu iela 7, Latgales priekšpilsēta, Rīga, Latvija</li>
+                </ul>
+            </div>
+            <div class="contacts_page__item contacts_page__item--white">
+                <i class="fas fa-phone-alt"></i>
+                <ul>
+                    <li class="item_page__name item_page__name--white"><%= __('contacts_phone')%></li>
+                    <li class="item_page__info item_page__info--phone">
+                        <a href="tel:+37129802769">+371 29802769</a> |
+                        <a href="tel:+37129506116">+371 29506116</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacts_page__item contacts_page__item--white">
+                <i class="fas fa-envelope"></i>
+                <ul>
+                    <li class="item_page__name item_page__name--white">E-Mail</li>
+                    <li class="item_page__info item_page__info--mail">
+                        <a href="mailto:siaensat@inbox.lv">siaensat@inbox.lv</a>
+                    </li>
+                </ul>
+            </div>
+            <img class="contacts_page__figure" src="/img/figure_7.png" alt="Decoration Figure">
+        </div>
+        <div class="contacts_page__decoration">
+            <img src="/img/dragon_2.png" alt="Decoration Dragon">
+        </div>
+    </div>
+</section>
+
+<%- include('./partials/footer') %>
+
+<%- include('./partials/support') %>

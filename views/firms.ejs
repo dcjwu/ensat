@@ -1,0 +1,39 @@
+<%- include('./partials/head') %>
+
+<%- include('./partials/nav_main') %>
+
+<div class="container">
+    <section class="block block--mb block--mob">
+        <h1 class="block__header">
+            <%= __('firms_header')%>
+        </h1>
+        <div class="collaboration_page">
+            <div class="collaboration_page__header">
+                <%= __('firms_text')%>
+            </div>
+            <div class="collaboration_page__inner">
+                <form class="form" action="/">
+                    <div class="form__header">
+                        <%= __('page_firmsLeave')%>
+                    </div>
+                    <div class="form__row form__row--top">
+                        <input class="form__name" type="text" placeholder="<%= __('page_firmsName')%>" disabled>
+                        <input class="form__mail" type="email" placeholder="E-Mail" disabled>
+                    </div>
+                    <div class="form__row form__row--mb">
+                        <textarea class="form__text" placeholder="<%= __('page_firmsMessage')%>" disabled></textarea>
+                    </div>
+                    <button class="btn-yellow btn-yellow--disabled" disabled><%= __('button_send')%></button>
+                </form>
+                <div class="collaboration_page__right">
+                    <img class="collaboration_page__dragon" src="/img/dragon_2.png" alt="Decoration Dragon">
+                    <img class="collaboration_page__figure" src="/img/figure_6.png" alt="Decoration Figure">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<%- include('./partials/footer') %>
+
+<%- include('./partials/support') %>

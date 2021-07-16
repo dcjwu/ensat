@@ -1,0 +1,37 @@
+<%- include('./partials/head') %>
+
+<%- include('./partials/nav_products') %>
+
+<div class="container">
+
+    <div class="content">
+        <h1 class="block__header">
+            <%= __('salads_vakame_name')%>
+        </h1>
+        <div class="content__top">
+            <div class="content_left">
+                <img class="content__img--hor" src="<%= __('salads_vakame_img')%>" alt="<%= __('salads_vakame_name')%>">
+            </div>
+            <div class="content_right">
+                <div class="content__price">
+                    <%= __('salads_vakame_price')%>
+                </div>
+                <div class="content__ingredients">
+                    <ul class="content__list">
+                        <li>
+                            <%= __('salads_vakame_ingredients_1')%>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content__bottom">
+            <%= __('salads_vakame_desc')%>
+        </div>
+    </div>
+
+</div>
+
+<%- include('./partials/footer') %>
+
+<%- include('./partials/support') %>

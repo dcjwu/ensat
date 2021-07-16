@@ -1,0 +1,44 @@
+<div class="nav__wrapper" id="sidebar">
+    <nav class="nav" id="nav">
+        <div class="nav__inner" id="nav-inner">
+            <ul class="nav__left">
+                <li class="nav__link nav__link-mr" id="about-link"><%= __('nav_about')%></li>
+                <li class="nav__link nav__link-mr" id="products-link"><%= __('nav_products')%></li>
+                <li class="nav__link" id="find-link"><%= __('nav_find')%></li>
+            </ul>
+            <div class="nav__center">
+                <img class="nav__img" src="/img/ensat.png" alt="SIA Ensat Logo" id="logo-link">
+            </div>
+            <ul class="nav__right">
+                <li class="nav__link" id="delivery-link"><%= __('nav_delivery')%></li>
+                <li class="nav__link nav__link-ml" id="firms-link"><%= __('nav_firms')%></li>
+                <li class="nav__link nav__link-ml" id="contacts-link"><%= __('nav_contacts')%></li>
+            </ul>
+        </div>
+        <div class="nav nav--mobile">
+            <ul class="nav__left nav__left--mobile">
+                <li class="nav__link nav__link--mobile" id="about-link-mob"><%= __('nav_about')%></li>
+                <li class="nav__link nav__link--mobile" id="products-link-mob"><%= __('nav_products')%></li>
+                <li class="nav__link nav__link--mobile" id="find-link-mob"><%= __('nav_find')%></li>
+            </ul>
+            <ul class="nav__right nav__right--mobile">
+                <li class="nav__link nav__link--mobile" id="delivery-link-mob"><%= __('nav_delivery')%></li>
+                <li class="nav__link nav__link--mobile" id="firms-link-mob"><%= __('nav_firms')%></li>
+                <li class="nav__link nav__link--mobile" id="contacts-link-mob"><%= __('nav_contacts')%></li>
+            </ul>
+        </div>
+        <div class="lang">
+            <ul>
+                <li class="lang__list">
+                    <a class="btn-lang" href="/lv">LV</a>
+                </li>
+                <li class="lang__list">
+                    <a class="btn-lang" href="/ru">RU</a>
+                </li>
+            </ul>
+        </div>
+        <button class="burger" type="button" id="sidebarToggle">
+            <span>Menu</span>
+        </button>
+    </nav>
+</div>

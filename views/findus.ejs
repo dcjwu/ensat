@@ -1,0 +1,38 @@
+<%- include('./partials/head') %>
+
+<%- include('./partials/nav_main') %>
+
+<div class="container">
+    <section class="block block--mb block--mob">
+        <h1 class="block__header">
+            <%= __('find_header')%>
+        </h1>
+        <div class="find_page">
+            <div class="find_page__top">
+                <div class="find_page__subheader">
+                    <%= __('find_text_2')%>
+                </div>
+                <div class="find_page__shops">
+                    <img class="shops__icon" src="/img/maxima.svg" alt="Maxima">
+                    <img class="shops__icon shops__icon--sky" src="/img/sky.svg" alt="Sky">
+                    <img class="shops__icon" src="/img/rimi.svg" alt="Rimi">
+                    <img class="shops__icon shops__icon--stockmann" src="/img/stockmann.svg" alt="Stockmann">
+                </div>
+            </div>
+            <div class="find_page__bottom">
+                <div class="find_page__left">
+                    <div class="find_page__text">
+                        <%= __('find_text_1')%>                    </div>
+                    <img class="find_page__salads" src="/img/salads_12.png" alt="Salads">
+                </div>
+                <div class="find_page__right">
+                    <img class="find_page__market" src="/img/place.png" alt="Our Place On Central Market">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<%- include('./partials/footer') %>
+
+<%- include('./partials/support') %>

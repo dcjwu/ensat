@@ -1,0 +1,262 @@
+<%- include('./partials/head') %>
+
+<%- include('./partials/nav_index') %>
+
+<div class="container">
+    <header class="header" id="header">
+        <div class="header__inner">
+            <div class="header__left">
+                <img class="header__salads" src="/img/salads_1.png" alt="Salads">
+                <img class=header__handmade src="<%= __('header_img')%>" alt="100% Handmade">
+            </div>
+            <div class="header__right">
+                <h1 class="header__name">
+                    <%= __('header_header')%>
+                </h1>
+                <div class="header__text">
+                    <h2 class="text__item">
+                        <span>25</span> <%= __('header_text')%>
+                    </h2>
+                    <h2 class="text__item">
+                        <%= __('header_text_1_p1')%> <span>20</span> <%= __('header_text_1_p2')%>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="about__left">
+            <h1 class="about__header">
+                <%= __('about_header')%>
+            </h1>
+            <div class="about__text" id="about">
+                <%= __('about_text')%>
+            </div>
+            <p class="btn-wrapper btn-wrapper--center">
+                <a class="btn-yellow" href="/about"><%= __('button_details')%></a>
+            </p>
+        </div>
+        <div class="about__right">
+            <img class="about__salads" src="/img/salads_2.png" alt="Salads">
+            <img class="about__market" src="<%= __('about_img')%>" alt="25 Years on Market">
+        </div>
+    </section>
+
+    <section class="block">
+        <h1 class="block__header">
+            <%= __('products_header')%>
+        </h1>
+        <div class="products">
+            <img class="products__figure" src="/img/figure.png" alt="Decoration Figure">
+            <div data-slider-products>
+                <div class="products__item">
+                    <div class="products__left">
+                        <img class="products__salads--ver" src="/img/salads_cha.png" alt="Salads">
+                    </div>
+                    <div class="products__right">
+                        <div class="products__text" id="products">
+                            <%= __('slider_1')%>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__left">
+                        <img class="products__salads--ver" src="/img/salads_water.png" alt="Salads">
+                    </div>
+                    <div class="products__right">
+                        <div class="products__text">
+                            <%= __('slider_2')%>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__left">
+                        <img class="products__salads" src="/img/salads_eggplant.png" alt="Salads">
+                    </div>
+                    <div class="products__right">
+                        <div class="products__text">
+                            <%= __('slider_3')%>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__left">
+                        <img class="products__salads" src="/img/salads_mushr.png" alt="Salads">
+                    </div>
+                    <div class="products__right">
+                        <div class="products__text">
+                            <%= __('slider_4')%>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__left">
+                        <img class="products__salads" src="/img/salads_sote.png" alt="Salads">
+                    </div>
+                    <div class="products__right">
+                        <div class="products__text">
+                            <%= __('slider_5')%>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__left">
+                        <img class="products__salads--ver" src="/img/salads_trio.png" alt="Salads">
+                    </div>
+                    <div class="products__right">
+                        <div class="products__text">
+                            <%= __('slider_6')%>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <div class="products__left">
+                        <img class="products__salads--ver" src="/img/salads_adzhika.png" alt="Salads">
+                    </div>
+                    <div class="products__right">
+                        <div class="products__text">
+                            <%= __('slider_7')%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="btn-wrapper btn-wrapper--center btn-wrapper--products">
+                <a class="btn-yellow" href="/products"><%= __('button_more_1')%></a>
+            </p>
+        </div>
+    </section>
+
+    <section class="block--mt">
+        <h1 class="block__header">
+            <%= __('find_header')%>
+        </h1>
+        <div class="find">
+            <div class="find__left">
+                <img id="find-mob" class="find__photo" src="/img/place.png" alt="Our Place On Central Market">
+                <div class="find__text">
+                    <%= __('find_text_1')%>
+                </div>
+                <img class="find__figure" src="/img/figure_1.png" alt="Decoration Figure">
+            </div>
+            <div class="find__right">
+                <div class="find__text">
+                    <%= __('find_text_2')%>
+                </div>
+                <div class="find__shops">
+                    <div class="shops__top" id="find">
+                        <img class="shops__img" src="/img/maxima.svg" alt="Maxima">
+                        <img class="shops__img shops__img--sky" src="/img/sky.svg" alt="Sky">
+                    </div>
+                    <div class="shops__bottom">
+                        <img class="shops__img" src="/img/rimi.svg" alt="Rimi">
+                        <img class="shops__img shops__img--stockmann" src="/img/stockmann.svg" alt="Stockmann">
+                    </div>
+                </div>
+                <img class="find__dragon" src="/img/dragon.png" alt="Decoration Dragon">
+            </div>
+        </div>
+        <div class="find__bottom">
+            <p class="btn-wrapper btn-wrapper--center btn-wrapper--mt">
+                <a class="btn-yellow" href="/findus"><%= __('button_more')%></a>
+            </p>
+            <img class="find__salads" src="/img/salads_sote.png" alt="Salads">
+        </div>
+    </section>
+
+    <section class="block block--mt">
+        <h1 class="block__header">
+            <%= __('delivery_header')%>
+        </h1>
+        <div class="delivery">
+            <div class="delivery__left">
+                <img class="delivery__salads" src="/img/salads_5.png" alt="Salads">
+            </div>
+            <div class="delivery__right">
+                <dl class="delivery__list">
+                    <dt><%= __('delivery_dt1')%></dt>
+                    <dd id="delivery"><%= __('delivery_dd1')%></dd>
+                    <dt><%= __('delivery_dt2')%></dt>
+                    <dd><%= __('delivery_dd2_p1')%> <span><%= __('delivery_dd2_p2')%></span> <%= __('delivery_dd2_p3')%></dd>
+                    <dt><%= __('delivery_dt3')%></dt>
+                    <dd><%= __('delivery_dd3')%></dd>
+                    <dt><%= __('delivery_dt4')%></dt>
+                    <dd><%= __('delivery_dd4')%></dd>
+                </dl>
+                <div class="delivery__bottom">
+                    <p class="btn-wrapper btn-wrapper--right">
+                        <a class="btn-yellow" href="/delivery"><%= __('button_more')%></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="block">
+    <div class="collaboration">
+        <div class="collaboration__inner">
+            <h1 class="block__header block__header--white">
+                <%= __('firms_header')%>
+            </h1>
+            <div class="collaboration__text" id="firms">
+                <%= __('firms_text')%>
+            </div>
+            <p class="btn-wrapper btn-wrapper--center">
+                <a class="btn-yellow" href="/firms"><%= __('button_details')%></a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <section class="block block--mb">
+        <h1 class="block__header">
+            <%= __('contacts_header')%>
+        </h1>
+        <div class="contacts">
+            <div class="contacts__left">
+                <img id="contacts" class="contacts__map" src="/img/map.png" alt="Map">
+                <p class="btn-wrapper">
+                    <a class="btn-yellow" href="/contacts"><%= __('button_more')%></a>
+                </p>
+            </div>
+            <div class="contacts__right">
+                <div class="contacts__list">
+                    <div class="contacts__item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <ul>
+                            <li class="item__name"><%= __('contacts_address')%></li>
+                            <li class="item__info">Nēģu iela 7, Latgales priekšpilsēta, Rīga, Latvija</li>
+                        </ul>
+                    </div>
+                    <div class="contacts__item">
+                        <i class="fas fa-phone-alt"></i>
+                        <ul>
+                            <li id="contacts-mob" class="item__name"><%= __('contacts_phone')%></li>
+                            <li class="item__info item__info--phone">
+                                <a href="tel:+37129802769">+371 29802769</a> |
+                                <a href="tel:+37129506116">+371 29506116</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contacts__item">
+                        <i class="fas fa-envelope"></i>
+                        <ul>
+                            <li class="item__name">E-Mail</li>
+                            <li class="item__info item__info--mail">
+                                <a href="mailto:siaensat@inbox.lv">siaensat@inbox.lv</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="contacts__dragon" src="/img/dragon_1.png" alt="Decoration Dragon">
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<%- include('./partials/footer') %>
+
+<%- include('./partials/support') %>

@@ -1,0 +1,53 @@
+<%- include('./partials/head') %>
+
+<%- include('./partials/nav_main') %>
+
+<div class="container">
+    <section class="block block--mb block--mob">
+        <h1 class="block__header">
+            <%= __('page_about_header')%>
+        </h1>
+        <div class="about_page">
+            <div class="about_page__item">
+                <div class="about_page__left">
+                    <div class="about_page__text">
+                        <%= __('page_about_text_1')%>                    </div>
+                    <img class="about_page__figure" src="/img/figure_2.png" alt="Figure">
+                </div>
+                <div class="about_page__right">
+                    <img class="about_page__salads" src="/img/salads_6.png" alt="Salads">
+                    <img class="about_page__brush" src="<%= __('page_about_img25')%>" alt="25 Years on Market">
+                </div>
+            </div>
+            <div class="about_page__item">
+                <div class="about_page__right">
+                    <img class="about_page__salads" src="/img/salads_7.png" alt="Salads">
+                    <img class="about_page__brush" src="<%= __('page_about_imgHands')%>" alt="Handmade">
+                </div>
+                <div class="about_page__left">
+                    <h1><%= __('page_about_story')%></h1>
+                    <div class="about_page__text">
+                        <%= __('page_about_text_2')%>
+                    </div>
+                    <img class="about_page__figure" src="/img/figure_3.png" alt="Figure">
+                </div>
+            </div>
+            <div class="about_page__item">
+                <div class="about_page__left">
+                    <h1><%= __('page_about_goal')%></h1>
+                    <div class="about_page__text">
+                        <%= __('page_about_text_3')%>                    </div>
+                    <img class="about_page__figure" src="/img/figure_4.png" alt="Figure">
+                </div>
+                <div class="about_page__right">
+                    <img class="about_page__salads" src="/img/salads_8.png" alt="Salads">
+                    <img class="about_page__brush" src="<%= __('page_about_imgNames')%>" alt="20 Products">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<%- include('./partials/footer') %>
+
+<%- include('./partials/support') %>
